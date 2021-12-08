@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_sender_menu">
+        <item >转发到邮箱</item>
+        <!-- <item >转发到短信</item> -->
+    </string-array>
+</resources>
