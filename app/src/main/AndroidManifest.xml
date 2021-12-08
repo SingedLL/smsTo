@@ -25,7 +25,7 @@
         <receiver android:name=".receiver.RebootBroadcastReceiver">
             <intent-filter android:priority="2147483647">
                 <!--重启广播-->
-                　　<action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
         <receiver android:name=".receiver.SMSBroadcastReceiver" android:permission="android.permission.BROADCAST_SMS">
